@@ -351,7 +351,7 @@ async def run_attack_command_on_codespace(target_ip, target_port, duration, chat
             f"𝗔𝘁𝘁𝗮𝗰𝗸 𝗧𝗶𝗺𝗲: {duration} 𝐒𝐞𝐜.\n"
             f"𝗧𝗵𝗿𝗲𝗮𝗱𝘀: {thread_count}\n"
             f"𝗣𝗮𝗰𝗸𝗲𝘁 𝗦𝗶𝘇𝗲: {packet_size}\n"
-            f"᚛ ᚛ @KaliaYtOwner ᚜ ᚜")
+            f"᚛ ᚛ @RTC_CHEATS ᚜ ᚜")
 
         # Create and run process without output
         process = await asyncio.create_subprocess_shell(
