@@ -23,9 +23,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 KEY_PRICES = {
-    'hour': 20,  # 50 Rs per hour
-    'day': 80,   # 150 Rs per day
-    'week': 300  # 600 Rs per week
+    'hour': 30,  # 50 Rs per hour
+    'day': 100,   # 150 Rs per day
+    'week': 400  # 600 Rs per week
 }
 ADMIN_IDS = [1225401466,7702119573]
 BOT_TOKEN = "8195384811:AAHCqW36a0NddcG9lZNsIJ7S39yN4h7u3B0"
@@ -349,8 +349,6 @@ async def run_attack_command_on_codespace(target_ip, target_port, duration, chat
             f"🚀 𝗔𝘁𝘁𝗮𝗰𝗸 𝗦𝘁𝗮𝗿𝘁𝗲𝗱🔥\n\n"
             f"𝗧𝗮𝗿𝗴𝗲𝘁: {target_ip}:{target_port}\n"
             f"𝗔𝘁𝘁𝗮𝗰𝗸 𝗧𝗶𝗺𝗲: {duration} 𝐒𝐞𝐜.\n"
-            f"𝗧𝗵𝗿𝗲𝗮𝗱𝘀: {thread_count}\n"
-            f"𝗣𝗮𝗰𝗸𝗲𝘁 𝗦𝗶𝘇𝗲: {packet_size}\n"
             f"᚛ ᚛ @UknowJoHaN ᚜ ᚜")
 
         # Create and run process without output
@@ -649,9 +647,9 @@ def genkey_command(message):
         bot.send_message(chat_id, (
             "*Usage: /genkey <amount> <unit>*\n\n"
             "Available units and prices:\n"
-            "- hour/hours (20₹ per hour)\n"
-            "- day/days (80₹ per day)\n"
-            "- week/weeks (300₹ per week)"
+            "- hour/hours (30₹ per hour)\n"
+            "- day/days (10"₹ per day)\n"
+            "- week/weeks (400₹ per week)"
         ), parse_mode='Markdown')
         return
     
