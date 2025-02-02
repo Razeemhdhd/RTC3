@@ -648,7 +648,7 @@ def genkey_command(message):
             "*Usage: /genkey <amount> <unit>*\n\n"
             "Available units and prices:\n"
             "- hour/hours (30₹ per hour)\n"
-            "- day/days (10"₹ per day)\n"
+            "- day/days (100₹ per day)\n"
             "- week/weeks (400₹ per week)"
         ), parse_mode='Markdown')
         return
